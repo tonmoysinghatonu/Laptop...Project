@@ -1,0 +1,247 @@
+body{
+	background: url('img/Wallpaper.jpg');
+	background-size:cover;
+	font-family:Arial;
+	color:black;
+	width:1216px;
+	height:1750px;
+	margin:15px 0px 0px 150px;
+	background-repeat:no-repeat;
+	background-size:1900px 1800px;
+	float:left;
+	border: 2px;
+}
+
+@keyframes slider{
+	20%{
+	left: 50%;
+	}
+	25%{
+	left: 50%;
+	}	
+	50%{
+	left: -100%;
+	}
+	75%{
+	left: -100%;
+	}
+	75%{
+	left: -200%;
+	}
+	100%{
+	left: -200%;
+	}
+	
+}
+#slider{
+	overflow:hidden;
+}
+#slider figure img{
+	width:20%;
+	float:left;
+}
+#slider figure{
+	position:relative;
+	width:450%;
+	margin:10px;
+	left:10px;
+	text-align:left;
+	font-size:0;
+	animation:20s slider infinite;
+	}
+
+			#box{
+				height:230px;
+				width:150px;
+				float:left;
+				margin:20px 0px 0px 30px;
+				}
+					#img img
+					{
+					height:120px;
+					width:180px;
+					float:left;
+					margin:0px 0px 5px 40px;
+					overflow: hidden;
+					transition: all 1s ease;
+					}
+					#img img:hover{
+						transform: scale(0.9);
+					}
+					#text1
+					{
+					height:25px;
+					width:260px;
+					float:left;
+					color:black;
+					text-align:center;
+					}
+					#text2
+					{
+					height:20px;
+					width:260px;
+					float:left;
+					color:black;
+					text-align:center;
+					}
+		#footer p
+		{
+			height:10px;
+			width:1216px;
+			margin-left:15px;
+			padding-top: 200px;
+			float:left;
+			font-family:Century Gothic;
+			font-size:15px;
+			color:#E81123;
+			text-align:center;
+			font-weight: bold;
+	}
+			#footer1 p
+		{
+			height:10px;
+			width:1216px;
+			margin-left:10px;
+			padding-top:1120px;
+			float:left;
+			font-family:Century Gothic;
+			font-size:15px;
+			color:#E81123;
+			text-align:center;
+		}
+			#footer2 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:950px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+			#footer3 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:1270px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+			#footer4 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:400px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+			#footer5 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:280px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+			#footer6 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:730px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+			#footer7 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:1000px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+.contacts img{
+	height:190px;
+	width:190px;
+	position:relative;
+	overflow: hidden;
+	transition:all 1s ease;
+}
+.contacts img:hover{
+	transform: scale(1.2);
+}
+.contacts1 img{
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left: 500px;
+}
+.smart{
+	margin-left: 50px;
+}
+.smart img{
+	height:120px;
+	width:150px;
+	position:relative;
+	transition: all 1s ease;
+	overflow: hidden;
+}
+.smart img:hover{
+	transform: scale(0.9);
+}
+.round {
+    border-radius: 50%;
+}
+#id a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14.5px;
+}
+ 
+#id a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+.previous {
+    background-color: gray;
+    color: black;
+}
+.active{
+	background-color: #8725CA;
+    color: white;
+}
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+ #id{
+ 	padding-left:250px
+ }

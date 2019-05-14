@@ -1,0 +1,156 @@
+li{
+	list-style: none;
+}
+body{
+	margin: 0;
+}
+header{
+	background: black;
+	color: white;
+	padding:7px 0px 6px 40px;
+	height: 40px;
+}
+header h1{
+	display:inline;
+	font-family: "Lucida Handwriting";
+	float:left;
+	font-size:25px; 
+	margin-top:2px;
+	margin-right:10vh;
+	color: orange;
+}
+nav ul{
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	margin-top: 0px;
+}
+.nav{
+	font-family: "Lucida Calligraphy";
+	margin-top: -8.5px;
+}
+.red{
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+.divider{
+	background-color:red;
+	height:4px;
+}
+.green:hover{
+	color:purple;
+}
+img{
+	padding-left: 5px;
+	 float:right;
+}
+.backpic{
+	background-image: url(Icon/jb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100vh;
+	width:100%; 
+}
+.name{
+	font-family:Comic Sans MS ;
+	margin:0;
+	padding: 9% 5% 0% 55%;
+	font-size: 15px;
+	color: yellow;
+	font-style: italic;
+	text-transform: uppercase;
+
+}
+
+.web{
+	font-family: Bell MT;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 47px;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+
+}
+.dev{
+	font-size: 45px;
+	margin:  0.5% 0% 0% 55%;
+	font-family: Agency FB;
+}
+
+.button{
+	margin: 0% 0% 0% 55%;
+	background: yellow;
+	color: black;
+	border: none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: .1em;
+	cursor: pointer;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.5s;
+	border-radius: 4px;
+}
+
+ 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+ 
+.button:hover span {
+  padding-right: 25px;
+}
+ 
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#demo{
+	color: white;
+	background-color: rgba(0, 1, 0, 0.5);
+	display: inline;
+}
+.search[type="text"] {
+    border-radius: 6px;
+    border-style: none;
+    margin-left: 200px;
+    height: 27px;
+    width: 16%;
+    margin-top: 4px;
+    margin-right: 5px;
+    padding-left: 25px;
+}
+.divider1{
+	border:1px red dotted;
+} 
+p{
+	background-color: rgba(39,40,34,.4);
+	display: inline-block;
+	text-align:center;
+	margin: 0px 3px 0px 3px;
+	color: white;
+
+}
+h2{
+	margin: 0px 5px 10px 100px;
+}

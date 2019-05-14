@@ -1,0 +1,70 @@
+nav ul{
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	margin-top: 0px;
+}
+.nav{
+	font-family: "Lucida Calligraphy";
+	margin-top: -8.5px;
+}
+.red{
+	background-color: red;
+	padding: 28px 10px 16px 10px;
+}
+.green:hover{
+	color:purple;
+}
+body{
+	background: url('img/wallpaper.jpg');
+	background-size:cover;
+	font-family:Arial;
+	color:black;
+	width:1216px;
+	height:910px;
+	margin:15px 0px 0px 150px;
+	background-repeat:no-repeat;
+	background-size:1900px 2300px;
+	float:left;
+	border: 2px;
+}
+.textid{
+	color:black;
+	}
+	.textid h2{
+		color: black;
+}
+#footer1 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:68px;
+		padding-top:10px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
+		#footer2 p
+		{
+		height:10px;
+		width:1216px;
+		margin-left:10px;
+		padding-top:100px;
+		float:left;
+		font-family:Century Gothic;
+		font-size:15px;
+		color:#E81123;
+		text-align:center;
+		font-weight: bold;
+		}
